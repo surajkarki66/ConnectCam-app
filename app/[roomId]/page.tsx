@@ -31,7 +31,7 @@ const Room = () => {
     leaveRoom,
   } = usePlayer(myId, roomId, peer, stream);
 
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState({});
 
   useEffect(() => {
     if (!socket || !peer || !stream) return;
