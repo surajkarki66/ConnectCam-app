@@ -1,6 +1,7 @@
 This is a client site repository of ConnectCam which is a simple video chat application built using Next.js
 
 ## Live Demo
+`Note`: Since the signaling server is hosted on a free plan, the server response time is slow due to which there would be inconsistent behaviors.
 [Click Here](https://connect-cam-app.vercel.app/)
 
 ## Local Demo
