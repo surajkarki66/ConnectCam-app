@@ -137,7 +137,7 @@ const Room = () => {
         {playerHighlighted && (
           <Player
             url={playerHighlighted.url}
-            muted={playerHighlighted.muted}
+            muted={true}
             playing={playerHighlighted.playing}
             isActive
           />
